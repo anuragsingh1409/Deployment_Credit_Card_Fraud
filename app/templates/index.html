@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-image: linear-gradient(to right, rgba(167, 97, 97, 0.274), rgba(255, 0, 0, 0.548));
+        }
+        .btn{
+            font-family: 'Baloo Paaji 2', cursive;
+    margin: 9px 893px;
+    background-color: black;
+    color: white;
+    padding: 4px 31px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+        }
+        .btn:hover {
+            background-color: transparent;
+            color: black;
+            
+        }
+        .form-group input {
+            font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    display: block;
+    width: 340px;
+    padding: 0px 3px;
+    border: 2px solid black;
+    margin: 7px 775px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+  
+    </style>
+    <title>Credit Card Fraud Detection</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&family=Josefin+Sans:ital,wght@1,400;1,500&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans+Narrow:wght@700&display=swap"
+    rel="stylesheet">
+  
+</head>
+<body>
+    <center>
+ <div>   <h1 style="font-family: 'PT Sans Narrow',sans-serif;color: rgb(2, 46, 117);font-size: 135px;padding-top: 0ch;display: inline;">WELCOME</h1>
+ </div>
+    <div>
+        <h2 style="font-family: 'PT Sans Narrow',sans-serif;color: rgb(2, 46, 117);font-size: 70px;margin: top 0px;display: inline-block;">To Predict Fraudulent Score</h2>
+    </div>
+     </center>
+     <p style="font-family:'Baloo Paaji 2', cursive;color: rgb(30 109 147);display: contents;font-size: 25px;">
+         Here you will get to know about Chance of Credit Card Fraud on the basis of your Transaction Amount.
+     </p>
+     <center>
+    <p style="font-family:'Baloo Paaji 2', cursive; display: inline-block;font-size: 33px;">
+        Enter Your Transaction Amount($)
+    </p>
+</center>
+    <form action="/sub" method="POST" class="form-group">
+        <input type="number" name="amount"  placeholder="Your Amount" step="0.0001">
+        <button class="btn">Submit</button>
+    </form>
+     
+</body>v 
+</html>
