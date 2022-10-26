@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body{
-            background-image: linear-gradient(to right, rgba(165, 179, 43, 0.274), rgba(65, 153, 194, 0.548));
+            background-image: linear-gradient(to right, rgba(131, 35, 94, 0.274), rgba(223, 206, 111, 0.548));
         }
         .btn{
             font-family: 'Baloo Paaji 2', cursive;
     margin: 9px 893px;
-    background-color: black;
+    background-color: grey;
     color: white;
-    padding: 4px 31px;
+    padding: 6px 30px;
     display: inline-block;
-    border-radius: 10px;
-    font-size: 12px;
+    border-radius: 12px;
+    font-size: 16px;
     cursor: pointer;
         }
         .btn:hover {
@@ -49,22 +49,22 @@
 </head>
 <body>
     <center>
- <div>   <h1 style="font-family: 'PT Sans Narrow',sans-serif;color: red;font-size: 70px;padding: 20px 0px ;display: inline; margin: 0px;">WELCOME</h1>
+ <div>   <h1 style="font-family: 'PT Sans Narrow',sans-serif;color: black;font-size: 60px;padding: 26px 0px ;display: inline; margin: 0px;"><b>WELCOME</b></h1>
  </div>
     <div>
-        <h2 style="font-family: 'PT Sans Narrow',sans-serif;color: rgb(2, 46, 117);font-size: 80px;margin: top 5px;display: inline-block;">To Predict Fraudulent Score</h2>
+        <h2 style="font-family: 'PT Sans Narrow',sans-serif;color: rgb(99, 36, 36);font-size: 60px;margin: top 5px;display: inline-block;">To Predict Fraudulent Score</h2>
     </div>
      </center>
-     <p style="font-family:'Baloo Paaji 2', cursive;color: rgb(30 109 147);display: contents;font-size: 22px; display: flex; justify-content: center; margin: 0px;">
-         Here you will get to know about Chance of Credit Card Fraud on the basis of your Transaction Amount.
+     <p style="font-family:'Baloo Paaji 2', cursive;color: rgb(136, 58, 119);display: contents;font-size: 28px; display: flex; justify-content: center; margin: 0px;">
+        <b>Here you will get to know about Chance of Credit Card Fraud on the basis of your Transaction Amount.</b>
      </p>
      <center>
     <p style="font-family:'Baloo Paaji 2', cursive; display: inline-block;font-size: 33px; text-align: center;">
         Enter Your Transaction Amount($)
     </p>
 </center>
-    <form action="/sub" method="POST" class="form-group" style="text-align: center;">
-        <input type="number" name="amount"  placeholder="Your Amount" step="0.0001">
+    <form action="/sub" method="POST" class="form-group">
+        <input type="number" name="amount"  placeholder="Your Amount" step="0.0001" style="padding: 10px 60px;">
         <button class="btn">Submit</button>
     </form>
      
